@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/blockfrost/blockfrost-go"
+	"github.com/fabioDMFerreira/blockfrost-go"
 )
 
 func TestResourceBlockLatest(t *testing.T) {

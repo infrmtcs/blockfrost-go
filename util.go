@@ -8,6 +8,8 @@ import (
 	"net/url"
 
 	"github.com/blockfrost/blockfrost-go/internal/version"
+	"github.com/fabioDMFerreira/blockfrost-go/internal/version"
+	"github.com/hashicorp/go-retryablehttp"
 )
 
 func handleAPIErrorResponse(res *http.Response) error {
