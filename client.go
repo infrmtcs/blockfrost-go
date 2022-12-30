@@ -101,6 +101,7 @@ type APIClient interface {
 	AddressTransactions(ctx context.Context, address string, query APIQueryParams) ([]AddressTransactions, error)
 	AddressTransactionsAll(ctx context.Context, address string) <-chan AddressTxResult
 	AddressUTXOs(ctx context.Context, address string, query APIQueryParams) ([]AddressUTXO, error)
+	AddressUTXOsAsset(ctx context.Context, address string, asset string, query APIQueryParams) (utxos []AddressUTXO, err error)
 	AddressUTXOsAll(ctx context.Context, address string) <-chan AddressUTXOResult
 	AddressUTXOsAsset(ctx context.Context, address, asset string, query APIQueryParams) ([]AddressUTXO, error)
 	AddressUTXOsAssetAll(ctx context.Context, address, asset string) <-chan AddressUTXOResult
