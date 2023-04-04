@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/fabioDMFerreira/blockfrost-go"
+	"github.com/blockfrost/blockfrost-go"
 )
 
 func TestResourceInfoIntegration(t *testing.T) {
