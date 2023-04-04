@@ -12,7 +12,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/fabioDMFerreira/blockfrost-go"
+	"github.com/blockfrost/blockfrost-go"
 )
 
 func TestIPFSClientInit(t *testing.T) {

@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/fabioDMFerreira/blockfrost-go"
+	"github.com/blockfrost/blockfrost-go"
 )
 
 func TestAssetUnmarshal(t *testing.T) {

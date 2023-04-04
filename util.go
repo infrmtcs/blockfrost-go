@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/fabioDMFerreira/blockfrost-go/internal/version"
+	"github.com/blockfrost/blockfrost-go/internal/version"
 	"github.com/hashicorp/go-retryablehttp"
 )
 

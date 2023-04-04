@@ -16,7 +16,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/fabioDMFerreira/blockfrost-go"
+	"github.com/blockfrost/blockfrost-go"
 )
 
 var (

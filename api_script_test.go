@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/fabioDMFerreira/blockfrost-go"
+	"github.com/blockfrost/blockfrost-go"
 )
 
 func TestScriptUnmarshal(t *testing.T) {

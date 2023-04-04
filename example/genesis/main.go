@@ -13,7 +13,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/fabioDMFerreira/blockfrost-go"
+	"github.com/blockfrost/blockfrost-go"
 )
 
 func main() {
